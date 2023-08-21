@@ -1,0 +1,57 @@
+/* Reset default padding and margin */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set full height for map and HTML elements */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style for map container */
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* Customize popup appearance */
+.leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-tip-container {
+  display: none; /* Hide default arrow tip */
+}
+
+/* Style for the legend */
+.info.legend {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center; /* Center the content */
+}
+
+/* Style for legend color indicators */
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+
